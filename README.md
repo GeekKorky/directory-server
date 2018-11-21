@@ -2,7 +2,7 @@
 
 Small application to serve a directory from a network drive, this application will help you serve a directory from D:/myFolder into http://localhost:3270/
 
-You have to get a directory list from a json file like below
+You have fetch your a directory list from a json file like below located on index.js
 
 ```
 request.get("http://<example.com>/link.json", function(
