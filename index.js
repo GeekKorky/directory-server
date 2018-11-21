@@ -26,7 +26,7 @@ let appIcon = null;
 server.listen(process.env.PORT || 3270);
 console.log("listening to port 3270, server is running..");
 
-request.get("http://proweb.ecp.priv/server/link.json", function(
+request.get("http://localhost/server/link.json", function(
   err,
   response,
   body
