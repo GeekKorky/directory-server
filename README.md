@@ -40,3 +40,10 @@ Sample Json data
 ]
 
 ```
+
+Then Run NPM Start
+
+```
+npm start
+
+```
