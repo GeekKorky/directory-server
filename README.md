@@ -12,7 +12,6 @@ request.get("http://<example.com>/link.json", function(
 ) {
   if (!err && response.statusCode == 200) {
     var locals = JSON.parse(body);
-    //res.render("<YOUR TEMPLATE>", locals);
 
     for (var i = 0; i < locals.length; i++) {
       console.log("serving " + locals[i].title);
