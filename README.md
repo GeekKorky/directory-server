@@ -46,3 +46,9 @@ Then Run NPM Start
 ```
 npm start
 ```
+
+Then using your web browser navigate to http://localhost:3270 you can change the port number located on index.js
+
+```
+server.listen(process.env.PORT || 3270);
+```
